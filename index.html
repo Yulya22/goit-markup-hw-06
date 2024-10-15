@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYP<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -63,16 +63,17 @@
 
         <button class="mobile-open-btn" type="button">
           <svg class="open-btn-icon" width="24" height="24">
-            <use href="./images/icons.svg#icon-heroicons-solid_menu"></use>
+            <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
 
+      <!--MOBILE MENU-->
       <div class="mobile-menu-overlay">
         <div class="container mobile-menu">
           <button class="mobile-btn-close" type="button">
             <svg class="mobile-btn-icon" width="8" height="8">
-              <use href="./images/icons.svg#icon-close-2"></use>
+              <use href="./images/icons.svg#icon-close"></use>
             </svg>
           </button>
 
@@ -244,8 +245,8 @@
           <ul class="ourteam">
             <li class="teamul">
               <img
-                srcset="../images/Mark.jpg 1x, ./images/Mark.jpg 2x"
-                src="./images/Mark.jpg"
+                srcset="./images/img-3.jpg 1x, ./images/img2x-3.jpg 2x"
+                src="./images/img-3.jpg"
                 alt="Mark Guerrero"
                 width="264"
                 height="260"
@@ -309,8 +310,8 @@
 
             <li class="teamul">
               <img
-                srcset="./images/Tom.jpg 1x, ./images/Tom 2x.jpg"
-                src="./images/Tom.jpg"
+                srcset="./images/img-2.jpg 1x, ./images/img2x-2.jpg 2x"
+                src="./images/img-2.jpg"
                 alt="Tom Ford"
                 width="264"
                 height="260"
@@ -375,8 +376,8 @@
             <li class="teamul">
               <img
                 class="img-team"
-                srcset="./images/Kamila.jpg 1x, ./images/Kamila.jpg 2x"
-                src="./images/Kamila.jpg"
+                srcset="./images/img-1.jpg 1x, ./images/img2x-1.jpg 2x"
+                src="./images/img-1.jpg"
                 alt="Camila Garcia"
                 width="264"
                 height="260"
@@ -440,8 +441,8 @@
 
             <li class="teamul">
               <img
-                srcset="./images/Daniel.jpg 1x, ./images/Daniel.jpg 2x"
-                src="./images/Daniel.jpg"
+                srcset="./images/img-4.jpg 1x, ./images/img2x-4.jpg 2x"
+                src="./images/img-4.jpg"
                 alt="Daniel Wilson"
                 width="264"
                 height="260"
@@ -520,27 +521,33 @@
 
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/banking.jpg 1x,
-                     ./images/banking.jpg 2x"
+                    srcset="
+                      ./images/portfolio/app.jpg    1x,
+                      ./images/portfolio/app-2x.jpg 2x
+                    "
                   />
 
                   <!-- Tablet screen -->
 
                   <source
                     media="(min-width: 768px)"
-                    srcset="./images/banking.jpg 1x, 
-                    ./images/banking.jpg 2x"
+                    srcset="
+                      ./images/portfolio/app-tab.jpg    1x,
+                      ./images/portfolio/app-tab-2x.jpg 2x
+                    "
                   />
 
                   <!-- Mobile screen -->
 
                   <source
                     media="(max-width: 767px)"
-                    srcset="./images/banking.jpg 1x,
-                     ./images/banking.jpg 2x"
+                    srcset="
+                      ./images/portfolio/app-mob.jpg    1x,
+                      ./images/portfolio/app-mob-2x.jpg 2x
+                    "
                   />
                   <img
-                    src="./images/banking.jpg"
+                    src="./images/portfolio/app.jpg"
                     alt="Banking app"
                     width="360"
                     height="300"
@@ -567,8 +574,8 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="
-                      ./images/cashless.jpg 1x,
-                      ./images/cashless.jpg 2x
+                      ./images/portfolio/pay.jpg    1x,
+                      ./images/portfolio/pay-2x.jpg 2x
                     "
                   />
 
@@ -577,8 +584,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/cashless.jpg 1x,
-                      ./images/cashless.jpg 2x
+                      ./images/portfolio/pay-tab.jpg    1x,
+                      ./images/portfolio/pay-tab-2x.jpg 2x
                     "
                   />
 
@@ -587,13 +594,13 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      /images/cashless.jpg 1x,
-                      /images/cashless.jpg 2x
+                      ./images/portfolio/pay-mob.jpg    1x,
+                      ./images/portfolio/pay-mob-2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/cashless.jpg"
+                    src="./images/portfolio/pay.jpg"
                     alt="Cashless Payment"
                     width="360"
                     height="300"
@@ -620,8 +627,8 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="
-                      /images/meditation.jpg 1x,
-                      ./images/meditation.jpg 2x
+                      ./images/portfolio/app2.jpg    1x,
+                      ./images/portfolio/app2-2x.jpg 2x
                     "
                   />
 
@@ -630,8 +637,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/meditation.jpg 1x,
-                      ./images/meditation.jpg 2x
+                      ./images/portfolio/app2-tab.jpg    1x,
+                      ./images/portfolio/app2-tab-2x.jpg 2x
                     "
                   />
 
@@ -640,13 +647,13 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/meditation.jpg 1x,
-                      ./images/meditation.jpg 2x
+                      ./images/portfolio/app2-mob.jpg    1x,
+                      ./images/portfolio/app2-mob-2x.jpg 2x
                     "
                   />
 
                   <img
-                    src="./images/meditation.jpg"
+                    src="./images/portfolio/app2.jpg"
                     alt="Meditation App"
                     width="360"
                     height="300"
@@ -672,8 +679,10 @@
 
                   <source
                     media="(min-width: 1158px)"
-                    srcset="./images/taxi.jpg 1x,
-                     ./images/taxi.jpg 2x"
+                    srcset="
+                      ./images/portfolio/taxi.jpg    1x,
+                      ./images/portfolio/taxi-2x.jpg 2x
+                    "
                   />
 
                   <!-- Tablet screen -->
@@ -681,8 +690,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/taxi.jpg  1x,
-                      ../images/taxi.jpg 2x
+                      ./images/portfolio/taxi-tab.jpg    1x,
+                      ./images/portfolio/taxi-tab-2x.jpg 2x
                     "
                   />
 
@@ -691,12 +700,12 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ../images/taxi.jpg    1x,
-                      ./images/taxi.jpg 2x
+                      ./images/portfolio/taxi-mob.jpg    1x,
+                      ./images/portfolio/taxi-mob-2x.jpg 2x
                     "
                   />
                   <img
-                    src="./images/taxi.jpg"
+                    src="./images/portfolio/taxi.jpg"
                     alt="Taxi Service"
                     width="360"
                     height="300"
@@ -723,8 +732,8 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="
-                      ./images/screen.jpg 1x,
-                      ./images/screen.jpg 2x
+                      ./images/portfolio/phone.jpg    1x,
+                      ./images/portfolio/phone-2x.jpg 2x
                     "
                   />
 
@@ -733,8 +742,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      .//images/screen.jpg   1x,
-                      ./images/screen.jpg 2x
+                      ./images/portfolio/phone-tab.jpg    1x,
+                      ./images/portfolio/phone-tab-2x.jpg 2x
                     "
                   />
 
@@ -743,12 +752,12 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/screen.jpg 1x,
-                      ./images/screen.jpg 2x
+                      ./images/portfolio/phone-mob.jpg    1x,
+                      ./images/portfolio/phone-mob-2x.jpg 2x
                     "
                   />
                   <img
-                    src="./images/screen.jpg"
+                    src="./images/portfolio/phone.jpg"
                     alt="Screen Illustrations"
                     width="360"
                     height="300"
@@ -775,8 +784,8 @@
                   <source
                     media="(min-width: 1158px)"
                     srcset="
-                      ./images/onlline.jpg        1x,
-                      ./images/onlline.jpg 2x
+                      ./images/portfolio/girl.jpg    1x,
+                      ./images/portfolio/girl-2x.jpg 2x
                     "
                   />
 
@@ -785,8 +794,8 @@
                   <source
                     media="(min-width: 768px)"
                     srcset="
-                      ./images/onlline.jpg    1x,
-                      ./images/onlline.jpg 2x
+                      ./images/portfolio/girl-tab.jpg    1x,
+                      ./images/portfolio/girl-tab-2x.jpg 2x
                     "
                   />
 
@@ -795,12 +804,12 @@
                   <source
                     media="(max-width: 767px)"
                     srcset="
-                      ./images/onlline.jpg   1x,
-                      ./images/onlline.jpg 2x
+                      ./images/portfolio/girl-mob.jpg   1x,
+                      ./images/portfolio/girl-mob2x.jpg 2x
                     "
                   />
                   <img
-                    src="./images/onlline.jpg"
+                    src="./images/portfolio/girl.jpg"
                     alt="Online Courses"
                     width="360"
                     height="300"
@@ -924,7 +933,7 @@
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg class="modal-close-icon" width="8" height="8">
-            <use href="./images/icons.svg#icon-close-2"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
 
@@ -943,12 +952,10 @@
                 required
               />
 
-               <svg class="button-footer-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-person-2"></use>
+              <svg class="input-icons" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
               </svg>
-            </button>
-          </form>
-        </div>
+            </div>
           </div>
 
           <div class="modal-all-inputs">
@@ -963,7 +970,7 @@
               />
 
               <svg class="input-icons" width="18" height="24">
-                <use href="./images/icons.svg#icon-phone-2"></use>
+                <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
           </div>
@@ -980,7 +987,7 @@
               />
 
               <svg class="input-icons" width="18" height="24">
-                <use href="./images/icons.svg#icon-email-2"></use>
+                <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
           </div>
@@ -1011,7 +1018,7 @@
             <label class="form-checkbox" for="user-privacy">
               <span class="span-checkbox">
                 <svg class="checkbox-icon" width="10" height="8">
-                  <use href="./images/icons.svg#icon-checkmark"></use>
+                  <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
               </span>
 
